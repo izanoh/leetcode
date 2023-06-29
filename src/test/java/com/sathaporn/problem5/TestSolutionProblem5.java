@@ -15,7 +15,7 @@ public class TestSolutionProblem5 {
 		Runtime runtime = Runtime.getRuntime();
 		long startTime = System.currentTimeMillis();
 		runtime.gc();
-		String result = solutionProblem.longestPalindrome(null);
+		String result = solutionProblem.longestPalindrome(s);
 		long usedMemory = runtime.totalMemory() - runtime.freeMemory();
 		long endTime = System.currentTimeMillis();
 		long runtimeAsLong = endTime - startTime;
