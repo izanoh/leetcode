@@ -28,6 +28,8 @@ public class TestSolutionProblem6 {
 	  	      Arguments.of( "PAYPALISHIRING", 3, "PAHNAPLSIIGYIR"),
 	  	      Arguments.of( "PAYPALISHIRING", 4, "PINALSIGYAHRPI"),
 	  	      Arguments.of( "A", 1, "A"),
+	  	      Arguments.of( "A", 2, "A"),
+	  	      Arguments.of( "AB", 3, "AB"),
 	  	      Arguments.of( "AB", 1, "AB")
 	  	      
 	    );
